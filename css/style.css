@@ -1,0 +1,145 @@
+:root{
+  --color-black: #000000;
+}
+
+/* Utility classes */
+.bg-black{
+  background: var(--color-black);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.col-h{
+  display: inline;
+}
+
+#home{
+  z-index: 2;
+}
+
+#navbar-index{
+  z-index: 1;
+}
+
+#home-section{
+  background: url('../img/Background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 86.5vh;
+}
+
+.home-inner{
+  max-width: 99%;
+  margin: auto;
+}
+
+.slider-box{
+  margin: 20px;
+  height: 350px;
+  width: 250px;
+  position: relative;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #76756d11;
+}
+
+.slider-box a{
+  text-decoration: none;
+  text-align: center;
+}
+
+.img-box{
+  height: 170px;
+}
+
+.img-box img{
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.time{
+  position: absolute;
+  top: 0px;
+  right: 20px;
+}
+
+.detail{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  font-size: 13px;
+  line-height: 35px;
+}
+
+.price{
+  color: #000000;
+  line-height: 20px;
+}
+
+.cart{
+  position: absolute;
+  bottom: 0px;
+  line-height: 45px;
+  background: rgb(221, 176, 26);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart a{
+  color: black;
+}
+
+.slider-box:hover{
+  box-shadow: 2px 2px 12px rgba(47, 47, 47, 0.40);
+}
+
+.slider-box:hover .img-box img{
+  transform: scale(1.07);
+  transition: all 0.3s ease;
+}
+
+.cart:hover{
+  transform: scale(1.1);
+  box-shadow: 2px 2px 12px rgba(47, 47, 47, 0.40);
+  transition: all 0.1s ease;
+}
+
+.swiper-wraper{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.box-footer{
+  width: 240px;
+  max-height: 250px;
+}
+
+.box-footer p{
+  font-size: 11px;
+}
+
+.container-footer{
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr 3fr;
+}
+
+footer{
+  height: 52px;
+}
+
+footer p{
+  font-size: 14px;
+}
