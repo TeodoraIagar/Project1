@@ -1,0 +1,10 @@
+
+.swiper-wraper{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.container-footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}

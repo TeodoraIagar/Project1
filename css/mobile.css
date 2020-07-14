@@ -1,0 +1,22 @@
+.margin-mobile{
+  margin: 0 auto;
+}
+
+
+.swiper-wraper{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.swiper-slide{
+  margin: 0 auto;
+}
+
+.box-footer{
+  margin: 0 auto;
+}
+
+.container-footer{
+  display: grid;
+  grid-template-columns: 1fr;
+}
